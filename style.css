@@ -1,0 +1,220 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header
+{
+    
+    display: flex;
+    height: 65px;
+    color: white;
+    background-color: rgb(207, 96, 76);
+    position: sticky;
+    padding: 0 130px;
+    display: block;
+    width: 100%;
+    align-items: center;
+    z-index: 2;
+    opacity: 1;
+    top: 0;
+    
+}
+header ul
+{
+    float: right;
+    display: flex;
+    color: white;
+    line-height: 65px;
+}
+header ul li
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: none;
+    
+}
+header ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+header i
+{
+   position: relative;
+   top: 25px
+}
+
+section
+{
+    padding: 0 130px;
+    margin-bottom: 70px;
+    
+}
+.sec1
+{
+    
+    height: 100vh;
+    background: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sec1 .content-bx
+{
+    
+    position: absolute;
+    top: 30%;
+    
+    max-width: 500px;
+    
+}
+.sec1 .content-bx h1
+{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+.sec1 .content-bx p
+{
+    color: white;
+    letter-spacing: 3px;
+    margin: 20px 0px;
+}
+.sec1 .content-bx button
+{
+    padding: 6px 30px;
+    background: none;
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.sec2 .sec2-header .ways
+{
+    width: 45%;
+}
+.sec2 .sec2-header p
+{
+    width: 45%;
+}
+
+.sec2-header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.sec2 .contents
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.sec2 .contents .content-bx
+{
+    width: 340px;
+}
+.sec2 .contents .content-bx .black-bx
+{
+    position: relative;
+    color: white;
+    width: 100%;
+    background: black;
+    padding-top: 25 ;
+    margin-bottom: 20px;
+    height: 340px;
+    
+    
+}
+.sec2 .contents .content-bx .black-bx p
+{
+    
+    margin-left: 15px;
+    margin-bottom: 70px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.sec2 .contents .content-bx .black-bx h3
+{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sec2 .contents .content-bx .black-bx .shape
+{
+    
+    width: 40px;
+    height: 70px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 100px;
+}
+
+.sec3
+{
+    position: relative;
+    background: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+
+}
+.sec3 .content
+{
+    
+    color: white;
+    text-align: right;
+    position: relative;
+    top: 20%;
+    
+    
+}
+.sec3 .content h2
+{
+    font-size: 46px;
+    margin-bottom: 6px;
+}
+.sec3 .content p
+{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.sec3 .content a
+{
+    padding: 5px 40px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    background: white;
+}
+.header1
+{
+    background: black;
+    height: 50px;
+     
+}
+
+.header1 p
+{
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+.header1 p span
+{
+    background-color: rgb(207, 96, 76);
+    padding: 6px 30px;
+    border-radius: 15px;
+    margin-right: 40px;
+    
+}
